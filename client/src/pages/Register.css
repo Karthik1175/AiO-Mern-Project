@@ -1,0 +1,34 @@
+/* Register.css */
+/* Same as Login.css for consistent UI */
+.auth-container {
+  width: 340px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 24px rgba(50,47,122,0.06);
+  text-align: center;
+}
+.auth-container h2 { color: #322f7a; }
+.auth-container input {
+  display: block;
+  width: 95%;
+  margin: 15px auto;
+  font-size: 1rem;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+}
+.auth-container button {
+  background: #322f7a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 60%;
+  margin-top: 12px;
+}
+.err { color: #b00; margin-bottom: 12px; }

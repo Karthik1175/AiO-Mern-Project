@@ -1,0 +1,17 @@
+/* Dashboard.css */
+.dashboard-main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+.widgets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+@media (max-width:900px) {
+  .widgets-grid {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

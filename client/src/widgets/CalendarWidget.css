@@ -1,0 +1,55 @@
+.calendar-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.calendar-header button {
+  background: #322f7a;
+  color: #fff;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.calendar-days-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+.calendar-day-name {
+  width: 32px;
+  text-align: center;
+  color: #322f7a;
+}
+.calendar-days-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 224px;
+}
+.calendar-day-cell {
+  width: 32px;
+  height: 30px;
+  margin: 1px;
+  text-align: center;
+  line-height: 30px;
+  background: #f6f6fa;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #444;
+}
+.calendar-today {
+  background: #322f7a;
+  color: #fff;
+  font-weight: bold;
+}

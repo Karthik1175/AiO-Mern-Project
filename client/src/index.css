@@ -1,0 +1,8 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #eceef4;
+  margin: 0;
+  color: #222;
+}
+a { color: #322f7a; }
+* { box-sizing: border-box; }

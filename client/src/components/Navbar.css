@@ -1,0 +1,32 @@
+/* Navbar.css */
+.navbar {
+  padding: 16px 24px;
+  background: #322f7a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 12px;
+  font-weight: 500;
+}
+.navbar a.active {
+  border-bottom: 2px solid #fff;
+}
+.nav-btn {
+  background: #fff;
+  color: #322f7a;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
